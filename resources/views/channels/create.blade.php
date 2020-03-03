@@ -11,7 +11,7 @@
 
                    <div class="form-group" >
                        <input type="text" name="channel" class="form-control">
-\
+
 
                    </div>
                    <div class="form-group">

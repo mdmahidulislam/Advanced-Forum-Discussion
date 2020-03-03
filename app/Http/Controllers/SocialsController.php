@@ -19,9 +19,9 @@ class SocialsController extends Controller
 
             $user->avatar = $details->avatar;
             $user->name= $details->full_name;
-            $user->email=$details->email;
+            $user->email=$details->email; 
             $user->save();
         });
-        return redirect ('/home');
+        return redirect ('/forum');
     }
 }
